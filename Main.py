@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 %matplotlib inline
 from tensorflow.keras.utils import to_categorical
-BASE_DIR = '/content/drive/MyDrive/Colab Notebooks/'
+BASE_DIR = '/content/drive/MyDrive/Cs/'
 image_dir = os.path.join(BASE_DIR, 'Mask', 'images')
 annot_dir = os.path.join(BASE_DIR, 'Mask', 'annotations')
 abel2category = {'without_mask': 0, 'with_mask': 1, 'mask_weared_incorrect': 2}
